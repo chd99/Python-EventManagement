@@ -1,4 +1,8 @@
-Create SQlite Database stript (initial run maually ):
+*Sending notice mail function is not fully finished. 
+====================
+Initial run maually 
+====================
+Run below script to create SQlite Database initially:
     createTable.py
 
 
