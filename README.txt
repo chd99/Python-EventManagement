@@ -1,12 +1,17 @@
-*Sending notice mail function is not fully finished. 
+# Event Managment RESTful App
+
+*(Sending notice mail function is not fully finished. )
+
 ====================
-Initial run maually 
+  Initial run maually 
 ====================
-Run below script to create SQlite Database initially:
+## based on Flask, please install denpendencie by following requirement.txt
+
+## Run below script to create SQlite Database initially:
     createTable.py
 
 
-Endpoints List:
+## Endpoints List:
 --------------------------------------------------------------
     	GET http://127.0.0.1:5001/events
 	GET http://127.0.0.1:5001/event/<event_id>
@@ -18,7 +23,7 @@ Endpoints List:
     	DELETE http://127.0.0.1:5001/delete/
 --------------------------------------------------------------
 
-Endpoints Detail:
+## Endpoints Detail:
 ====================
     Event Management:
 ====================
